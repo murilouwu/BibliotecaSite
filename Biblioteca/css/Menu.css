@@ -7,3 +7,76 @@
 		justify-content: center;
 		align-items: center;
 	}
+		header{
+			padding: 1vh;
+			width: 100%;
+			border-bottom: 2px solid var(--corA);
+			justify-content: space-around;
+			box-shadow: 0px 0.5vh 7px var(--corA);
+			display: flex;
+			align-items: center;
+		}
+			header img{
+				width: 6vw;
+			}
+			header a{
+				text-decoration: none;
+				color: var(--corA);
+				font-size: 2vh;
+				font-weight: bold;
+			}
+				header a:hover{
+					font-size: 3vh;
+				}
+			header button{
+				background-image: url(../imgs/procura.png);
+			    background-repeat: no-repeat;
+			    background-size: 2vw 4vh;
+			    background-position: center;
+				width: 3vw;
+				height: 6vh;
+				border-radius: 40px;
+				border: 3px solid var(--corA);
+				background-color: var(--thema);
+				box-shadow: 0px 0px 8px var(--corA);
+			}
+				header button:hover{
+					width: 6vw;
+					height: 8vh;
+				}
+			header .perfil{
+				border-radius: 50px;
+				width: 3vw;
+				height: 4vh;
+				border: solid 4px var(--corA);
+			}
+				header .perfil:hover{
+					width: 5vw;
+					height: 6vh;
+				}
+			header #barraSearch{
+				width: 12vw;
+				height: 4vh;
+				margin-left: -11%;
+				background-color: var(--thema);
+				border: 2px solid var(--corA);
+				border-radius: 22px;
+				color: var(--corA);
+				padding: 2px;
+				display: none;
+				font-size: 2vh;
+				font-weight: bolder;
+				text-align: center;
+			}
+				header input:focus{
+					outline: none;
+				}
+		main{
+			height: 80vh;
+		}
+			main .slide{
+				width: 10vw;
+			}
+			main .espaso{
+				width: 100%;
+			}

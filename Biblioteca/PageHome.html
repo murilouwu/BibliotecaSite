@@ -11,12 +11,18 @@
 		<a href="#">Livros</a>
 		<a href="#">Coleções</a>
 		<a href="#">Perfil</a>
+		<button onclick="drop(this, '#barraSearch', 0)"></button>
+		<input id="barraSearch" type="text">
 		<img src="imgs/Largato.png" class="perfil">
-		<button>Search.img</button>
 	</header>
 	<main>
-		<div class="Slide">
-			<div class="Bigcard">
+		<form method="get" class="formImage" enctype="multipart/form-data">
+			<label for="fotoenviar">Enviar imagem</label>
+			<input id="fotoenviar" type="file" name="img" accept="image/png, image/jpeg">
+			<input type="submit" name="env001">
+		</form>
+		<div class="slide">
+			<div class="bigcard">
 				informações e imagem
 			</div>
 		</div>

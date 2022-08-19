@@ -18,3 +18,16 @@ function ocultar(obj, es) {
 		div.style.display = 'none';
 	};
 };
+
+function drop(bt, id, fun){
+	var res = 0;
+	let drop = document.querySelector(id);
+	if(fun==0){
+		res=1;
+		drop.style.display = 'flex';
+	}else{
+		drop.style.display = 'none';
+	}	
+	let onclick = "drop(this,'"+id+"',"+res+")";
+	bt.setAttribute('onclick', onclick);
+}
